@@ -51,9 +51,9 @@ Content-Type application/json
 `GET` `/providers`
 `GET` `/providers/:id`
 
-Sample `GET` request https://api.mozioapp.tk/api/v1/providers
+Sample `GET` request https://api.mozioapp.tk/api/v1/providers?format=json
 
-Sample `GET` request https://api.mozioapp.tk/api/v1/providers/f0c9e028-c4cb-41c0-b194-65616e823c77
+Sample `GET` request https://api.mozioapp.tk/api/v1/providers/f0c9e028-c4cb-41c0-b194-65616e823c77?format=json
 
 **Response**:
 
@@ -269,9 +269,9 @@ Content-Type application/json
 `GET` `/service-area`
 `GET` `/service-area/:id`
 
-Sample `GET` request https://api.mozioapp.tk/api/v1/service-area
+Sample `GET` request https://api.mozioapp.tk/api/v1/service-area?format=json
 
-Sample `GET` request https://api.mozioapp.tk/api/v1/service-area/7e3e9cf2-d4a7-4736-96b8-19c4dabe0d52
+Sample `GET` request https://api.mozioapp.tk/api/v1/service-area/7e3e9cf2-d4a7-4736-96b8-19c4dabe0d52?format=json
 
 **Response**:
 
@@ -314,7 +314,7 @@ Parameters:
 | lat  | float | Yes      | One of the latitude of the polygon.  |
 | lng  | float | Yes      | One of the longitude of the polygon. |
 
-Sample `GET` request https://api.mozioapp.tk/api/v1/get-service-areas?lat=120.95947265624999&lng=25.77021384896025
+Sample `GET` request https://api.mozioapp.tk/api/v1/get-service-areas?lat=120.95947265624999&lng=25.77021384896025?format=json
 
 **Response**:
 
