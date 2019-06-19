@@ -219,5 +219,6 @@ class Common(Configuration):
         'DEFAULT_AUTHENTICATION_CLASSES': (
             'rest_framework.authentication.SessionAuthentication',
             'rest_framework.authentication.TokenAuthentication',
-        )
+        ),
+        'TEST_REQUEST_DEFAULT_FORMAT': 'json'
     }

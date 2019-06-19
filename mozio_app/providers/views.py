@@ -49,5 +49,6 @@ class ListServiceAreas(APIView):
         coordinates = [latitude, longitude]
         filtered_service_areas = ServiceArea.objects.filter(coordinates__contains=coordinates)
         service_areas = [{'Name': area.name, 'Price': area.price,
-                          'Provider name': area.provider.name} for area in filtered_service_areas]
+                          'Provider name': area.provider.name, 
+                          'geojson': area.geojson} for area in filtered_service_areas]
         return Response(service_areas)
