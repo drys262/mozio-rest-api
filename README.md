@@ -314,7 +314,7 @@ Parameters:
 | lat  | float | Yes      | One of the latitude of the polygon.  |
 | lng  | float | Yes      | One of the longitude of the polygon. |
 
-Sample `GET` request https://api.mozioapp.tk/api/v1/get-service-areas?lat=120.95947265624999&lng=25.77021384896025?format=json
+Sample `GET` request https://api.mozioapp.tk/api/v1/get-service-areas?format=json&lat=120.95947265624999&lng=25.77021384896025
 
 **Response**:
 
