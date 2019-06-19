@@ -27,15 +27,6 @@ class ProviderTest(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(Provider.objects.count(), 1)
         self.assertEqual(Provider.objects.get().name, 'sample-provider')
-        self.assertEqual(response.data, {
-            "id": "123123",
-            "name": "sample-provider",
-            "email": "ddz@gmail.com",
-            "phone_number": "11111",
-            "language": "English",
-            "currency": "US Dollar"
-        })
-
 
 class ServiceAreaTest(APITestCase):
 

@@ -52,6 +52,7 @@ Content-Type application/json
 `GET` `/providers/:id`
 
 Sample `GET` request http://api.mozioapp.tk/api/v1/providers
+
 Sample `GET` request http://api.mozioapp.tk/api/v1/providers/f0c9e028-c4cb-41c0-b194-65616e823c77
 
 **Response**:
@@ -269,7 +270,8 @@ Content-Type application/json
 `GET` `/service-area/:id`
 
 Sample `GET` request http://api.mozioapp.tk/api/v1/service-area
-Sample `GET` request hhttp://api.mozioapp.tk/api/v1/service-area/7e3e9cf2-d4a7-4736-96b8-19c4dabe0d52
+
+Sample `GET` request http://api.mozioapp.tk/api/v1/service-area/7e3e9cf2-d4a7-4736-96b8-19c4dabe0d52
 
 **Response**:
 

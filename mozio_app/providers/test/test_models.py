@@ -76,7 +76,7 @@ class ServiceAreaModelTest(TestCase):
 
     def create_service_area(self, provider="f0c9e028-c4cb-41c0-b194-65616e823c77",
                             name="Sample Service Area", price=20.0, geojson=default_geojson):
-        return ServiceArea.objects.create(provider=name, name=phone_number,
+        return ServiceArea.objects.create(provider=name, name=name,
                                           price=language, geojson=geojson)
 
     def test_service_area_creation(self):
