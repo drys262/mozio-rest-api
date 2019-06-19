@@ -24,6 +24,10 @@ class Production(Common):
     AWS_QUERYSTRING_AUTH = False
     MEDIA_URL = f'https://s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/'
 
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+
     # https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#cache-control
     # Response can be cached by browser and any intermediary caches (i.e. it is "public") for up to 1 day
     # 86400 = (60 seconds x 60 minutes x 24 hours)
